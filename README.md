@@ -7,13 +7,13 @@ https://user-images.githubusercontent.com/4933086/119232092-e4984080-baf1-11eb-8
 Builds off of [get-vaccinated-fool](https://greasyfork.org/en/scripts/426622-get-vaccinated-fool) published by [morinted](https://greasyfork.org/en/users/153377-morinted) to accomplish just this. This ports the functionality to a Chrome extension with hopes of better ease of use by a wider audience.
 
 ## Usage
-**Note:** Chrome extension is pending review by Google, for it to be available on the Chrome Web Store. In the meantime, you can install this extension locally. See instructions below.
+**Note:** Chrome extension not yet available on the Chrome Web Store, pending review. In the meantime, you can install this extension locally. See instructions [below](https://github.com/pvienneau/chrome-extension-on-vaccine#installation).
 
-This extension will only run on the appointment selection page of the `vaccine.covaxonbooking.ca` website. When you've entered the portal and selected your preferred vaccination location, it will automatically start scanning for any available bookings. Note that availability may be slim, but they will appear as prior appointments or new appointments are released by the Province.
+This extension will only run on the appointment selection page of the `vaccine.covaxonbooking.ca` website. When you've entered the portal and selected your preferred vaccination location, it will automatically start scanning for any available openings. Note that there may not be immediate availability, however, the extension will continue searching, and will detect new openings as they are made available by the Province.
 
-When an available appointment is found, this extension will also automatically select the first time slots found for both 1st and 2nd doses.
+When an available appointment is found, this extension will automatically select the first time slots found for both 1st and 2nd doses.
 
-**Note:** The extension will not automatically submit the request on your behalf, only automate the searching and selection of appointments for you. You will still be required to click on **I agree and continue** and complete the appointment request.
+**Note:** The extension will not automatically submit the request on your behalf; it will only automate the search and selection of appointments for you. You will still be required to click on **I agree and continue** in order to complete the appointment request.
 
 ## Installation
 1. Download the `.zip` from the [latest release](https://github.com/pvienneau/chrome-extension-on-vaccine/releases) of code. Unzip locally.
