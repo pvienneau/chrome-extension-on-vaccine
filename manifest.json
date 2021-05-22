@@ -1,7 +1,7 @@
 {
-  "name": "Book your vaccine appointment",
+  "name": "Book your Ontario COVID Vaccine",
   "description": "Automation helper to find you a vaccine appointment on the ON site",
-  "version": "0.1",
+  "version": "0.0.1",
   "manifest_version": 3,
   "permissions": [
     "activeTab",
