@@ -29,6 +29,6 @@ When an available appointment is found, this extension will automatically select
 6. Find the unzipped folder, select it
 7. You should confirm that the **Book your Ontario COVID Vaccine** has been installed, and is now one of your running Chrome extensions
 
-![Screen Shot 2021-05-22 at 11 29 45 AM](https://user-images.githubusercontent.com/34248317/119237785-af4d1c00-bb0c-11eb-82a2-da7824d1f4de.png)
+<img width="419" alt="Screen Shot 2021-05-22 at 2 48 54 PM" src="https://user-images.githubusercontent.com/4933086/119237828-e1f71480-bb0c-11eb-9d18-a0144a3be037.png">
 
 **Note:** You can always uninstall, or disable this Chrome extension as needed. This can be done from the `chrome://extensions` or directly on the extension icon in your browser toolbar.
