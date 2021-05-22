@@ -9,7 +9,7 @@ Builds off of [get-vaccinated-fool](https://greasyfork.org/en/scripts/426622-get
 ## Usage
 **Note:** Chrome extension is pending review by Google, for it to be available on the Chrome Web Store. In the meantime, you can install this extension locally. See instructions below.
 
-This extension will only run on the appointment selection page of the `vaccine.covaxonbooking.ca` website. When you've entered entered the portal and selected your preferred vaccination location, it will automatically start scanning the following months' available bookings. Note that available may be slim, but they will appear as prior appointments or new appointments are released by the Province.
+This extension will only run on the appointment selection page of the `vaccine.covaxonbooking.ca` website. When you've entered the portal and selected your preferred vaccination location, it will automatically start scanning the following months' available bookings. Note that available may be slim, but they will appear as prior appointments or new appointments are released by the Province.
 
 When an available appointment is found, this extension will also automatically select the first time slots found for both 1st and 2nd doses.
 
