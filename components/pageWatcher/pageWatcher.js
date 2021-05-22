@@ -4,6 +4,33 @@ function delay(delayMs) {
    });
 }
 
+function waitForLoadingToComplete (maxDelayMs) {
+  return new Promise(function(resolve) {
+    let startTime = _.now()
+    let foundInitialLoading = false
+
+    const interval = setInterval(() => {
+      if (_.now() - maxDelayMs > startTime) {
+        window.clearInterval(interval)
+        resolve()
+        return
+      }
+
+      if (foundInitialLoading) {
+        if (!$loaderSpinner().length) {
+          window.clearInterval(interval)
+          resolve()
+          return
+        }
+      } else {
+        if ($loaderSpinner().length) {
+          foundInitialLoading = true
+        }
+      }
+    }, 250)
+  });
+}
+
 const getLocationPathname = () => window.location.pathname
 const isPageToWatch = () => {
   return _.includes(getLocationPathname(), '/appointment-select')
@@ -32,22 +59,37 @@ const $getCalendarPrevMonthButton = () => $getCalendar().find('[data-testid="cal
 const $getCalendarDays = () => $getCalendarActiveMonth().find('.CalendarDay')
 const $getAvailableCalendarDays = () => $getCalendarDays().filter(':not(.CalendarDay__blocked_out_of_range):not(.CalendarDay__today)')
 const $getAvailableTimeSlots = () => $('[data-testid="appointment-select-timeslot"]')
+const $loaderSpinner = () => $('[data-testid="loading-indicator"]')
 
 async function checkForVaccineBooking () {
+  await delay(5000)
+
   while (true) {
     if (!isPageToWatch()) return false
 
     $getCalendarNextMonthButton().click()
 
-    await delay(5000)
+    await waitForLoadingToComplete(5000)
 
-    if (hasAvailableBookings()) return selectBooking()
+    if (hasAvailableBookings()) {
+      await selectBooking()
+
+      return true
+    }
+
+    await delay(5000)
 
     $getCalendarPrevMonthButton().click()
 
-    await delay(5000)
+    await waitForLoadingToComplete(5000)
 
-    if (hasAvailableBookings()) return selectBooking()
+    if (hasAvailableBookings()) {
+      await selectBooking()
+
+      return true
+    }
+
+    await delay(5000)
   }
 }
 

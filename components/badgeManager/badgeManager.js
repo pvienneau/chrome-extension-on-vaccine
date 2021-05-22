@@ -11,8 +11,6 @@ async function refreshBadge () {
   const tab = await getCurrentTab()
   const { id: tabId, url } = tab
 
-  console.warn('refreshBadge')
-
   if (_.some(exactSites, site => _.includes(url, site))) {
     chrome.action.setBadgeBackgroundColor({ color: '#0096c7', tabId })
     chrome.action.setBadgeText({ text: 'on', tabId })
