@@ -1,0 +1,11 @@
+body {
+  width: 250px;
+}
+
+.input {
+
+}
+
+.input.small {
+  width: 30px;
+}
