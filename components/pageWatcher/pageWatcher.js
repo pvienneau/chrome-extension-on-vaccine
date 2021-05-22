@@ -56,12 +56,9 @@ async function selectBooking() {
 
   await delay(300)
 
-  console.warn($getAvailableTimeSlots())
-  console.warn($getAvailableTimeSlots().first())
-
   $getAvailableTimeSlots().first().click() //select first dose date
 
-  await delay(300)
+  await delay(1500)
 
   $getAvailableTimeSlots().first().click() // select second dose date
 }
