@@ -1,7 +1,7 @@
 {
   "name": "Book your Ontario COVID Vaccine",
   "description": "Automation script to automatically scan through the Ontario Health portal in order to find available booking times",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "manifest_version": 3,
   "permissions": [
     "activeTab",
