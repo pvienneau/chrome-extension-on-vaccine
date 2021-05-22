@@ -1,0 +1,34 @@
+## Ontario vaccination automated search Chrome extension
+Chrome Extension to auto-search for available vaccination bookings on the Ontario Health portal.
+
+https://user-images.githubusercontent.com/4933086/119232092-e4984080-baf1-11eb-8e58-5601bde337d9.mp4 
+
+### Credit
+Builds off of [get-vaccinated-fool](https://greasyfork.org/en/scripts/426622-get-vaccinated-fool) published by [morinted](https://greasyfork.org/en/users/153377-morinted) to accomplish just this. This ports the functionality to a Chrome extension with hopes of better ease of use by a wider audience.
+
+## Usage
+**Note:** Chrome extension not yet available on the Chrome Web Store, pending review. In the meantime, you can install this extension locally. See instructions [below](https://github.com/pvienneau/chrome-extension-on-vaccine#installation).
+
+This extension will only run on the appointment selection page of the `vaccine.covaxonbooking.ca` website. When you've entered the portal and selected your preferred vaccination location, it will automatically start scanning for any available openings. Note that there may not be immediate availability, however, the extension will continue searching, and will detect new openings as they are made available by the Province.
+
+When an available appointment is found, this extension will automatically select the first time slots found for both 1st and 2nd doses.
+
+**Note:** The extension will not automatically submit the request on your behalf; it will only automate the search and selection of appointments for you. You will still be required to click on **I agree and continue** in order to complete the appointment request.
+
+## Installation
+1. Download the `.zip` from the [latest release](https://github.com/pvienneau/chrome-extension-on-vaccine/releases) of code. Unzip locally.
+2. From your Chrome browser, go to `chrome://extensions`
+3. Turn on **Developer mode**
+
+![Screen Shot 2021-05-22 at 11 29 47 AM](https://user-images.githubusercontent.com/4933086/119231920-22489980-baf1-11eb-88a3-7f632f3b4d55.png)
+
+4. Select **Load unpacked**
+
+![Screen Shot 2021-05-22 at 11 29 51 AM](https://user-images.githubusercontent.com/4933086/119231925-25438a00-baf1-11eb-9f81-cd0369432428.png)
+
+6. Find the unzipped folder, select it
+7. You should confirm that the **Book your Ontario COVID Vaccine** has been installed, and is now one of your running Chrome extensions
+
+![Screen Shot 2021-05-22 at 11 29 45 AM](https://user-images.githubusercontent.com/4933086/119231930-296fa780-baf1-11eb-93b8-da7b23e08ad7.png)
+
+**Note:** You can always uninstall, or disable this Chrome extension as needed. This can be done from the `chrome://extensions` or directly on the extension icon in your browser toolbar.
