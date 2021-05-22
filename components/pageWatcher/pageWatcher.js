@@ -4,16 +4,8 @@ function delay(delayMs) {
    });
 }
 
-const beep = () => {
-  var beepsound = new Audio('../../assets/audio/beep.mp3')
-
-  beepsound.play()
-}
-
 const getLocationPathname = () => window.location.pathname
 const isPageToWatch = () => {
-  console.warn(getLocationPathname())
-
   return _.includes(getLocationPathname(), '/appointment-select')
 }
 
