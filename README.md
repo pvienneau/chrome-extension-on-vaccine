@@ -1,7 +1,7 @@
 ## Ontario vaccination automated search Chrome extension
 Chrome Extension to auto-search for available vaccination bookings on the Ontario Health portal.
 
-https://user-images.githubusercontent.com/4933086/119232092-e4984080-baf1-11eb-8e58-5601bde337d9.mp4 
+https://user-images.githubusercontent.com/34248317/119238819-fb9b5a80-bb12-11eb-9b9f-08cc261efa55.mp4
 
 ### Credit
 Builds off of [get-vaccinated-fool](https://greasyfork.org/en/scripts/426622-get-vaccinated-fool) published by [morinted](https://greasyfork.org/en/users/153377-morinted) to accomplish just this. This ports the functionality to a Chrome extension with hopes of better ease of use by a wider audience.
