@@ -31,4 +31,11 @@ When an available appointment is found, this extension will automatically select
 
 <img width="419" alt="Screen Shot 2021-05-22 at 2 48 54 PM" src="https://user-images.githubusercontent.com/4933086/119237828-e1f71480-bb0c-11eb-9d18-a0144a3be037.png">
 
-**Note:** You can always uninstall, or disable this Chrome extension as needed. This can be done from the `chrome://extensions` or directly on the extension icon in your browser toolbar.
+**Note:** You can always take back control of the booking page by disabling this extension via `chrome://extensions`. Also see uninstallation for how to remove this extension from your browser, once you're done with the booking.
+
+## Uninstallation
+Once you have your booking completed, this extension has no more use for you. You can uninstall the extension by simply going to `chrome://extensions`, or by accessing the extension's options via your Chrome's toolbar.
+
+<img width="421" alt="Screen Shot 2021-05-22 at 3 30 10 PM" src="https://user-images.githubusercontent.com/34248317/119238772-a8290c80-bb12-11eb-93ba-2b4cecd58f61.png">
+<img width="392" alt="Screen Shot 2021-05-22 at 3 30 24 PM" src="https://user-images.githubusercontent.com/34248317/119238773-a8c1a300-bb12-11eb-8c1d-fe26a1ce68b5.png">
+
