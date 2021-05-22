@@ -3,7 +3,10 @@ Chrome Extension to auto-search for available vaccination bookings on the Ontari
 
 https://user-images.githubusercontent.com/4933086/119232092-e4984080-baf1-11eb-8e58-5601bde337d9.mp4 
 
-### Usage
+### Credit
+Builds off of [get-vaccinated-fool](https://greasyfork.org/en/scripts/426622-get-vaccinated-fool) published by [morinted](https://greasyfork.org/en/users/153377-morinted) to accomplish just this. This ports the functionality to a Chrome extension with hopes of better ease of use by a wider audience.
+
+## Usage
 **Note:** Chrome extension is pending review by Google, for it to be available on the Chrome Web Store. In the meantime, you can install this extension locally. See instructions below.
 
 This extension will only run on the appointment selection page of the `vaccine.covaxonbooking.ca` website. When you've entered entered the portal and selected your preferred vaccination location, it will automatically start scanning the following months' available bookings. Note that available may be slim, but they will appear as prior appointments or new appointments are released by the Province.
