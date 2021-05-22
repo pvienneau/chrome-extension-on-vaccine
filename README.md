@@ -1,6 +1,8 @@
 ## Ontario vaccination automated search Chrome extension
 Chrome Extension to auto-search for available vaccination bookings on the Ontario Health portal.
 
+https://user-images.githubusercontent.com/4933086/119232092-e4984080-baf1-11eb-8e58-5601bde337d9.mp4 
+
 ### Usage
 **Note:** Chrome extension is pending review by Google, for it to be available on the Chrome Web Store. In the meantime, you can install this extension locally. See instructions below.
 
@@ -9,9 +11,6 @@ This extension will only run on the appointment selection page of the `vaccine.c
 When an available appointment is found, this extension will also automatically select the first time slots found for both 1st and 2nd doses.
 
 **Note:** The extension will not automatically submit the request on your behalf, only automate the searching and selection of appointments for you. You will still be required to click on **I agree and continue** and complete the appointment request.
-
-
-https://user-images.githubusercontent.com/4933086/119232092-e4984080-baf1-11eb-8e58-5601bde337d9.mp4 
 
 ## Installation
 1. Download the `.zip` from the [latest release](https://github.com/pvienneau/chrome-extension-on-vaccine/releases) of code. Unzip locally.
