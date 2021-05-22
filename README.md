@@ -31,7 +31,7 @@ When an available appointment is found, this extension will automatically select
 
 <img width="419" alt="Screen Shot 2021-05-22 at 2 48 54 PM" src="https://user-images.githubusercontent.com/4933086/119237828-e1f71480-bb0c-11eb-9d18-a0144a3be037.png">
 
-**Note:** You can always take back control of the booking page by disabling this extension via `chrome://extensions`. Also see uninstallation for how to remove this extension from your browser, once you're done with the booking.
+**Note:** You can always take back control of the booking page by disabling this extension via `chrome://extensions`. Also see [uninstallation instructions](https://github.com/pvienneau/chrome-extension-on-vaccine/blob/master/README.md#uninstallation) for how to remove this extension from your browser, once you're done with the booking.
 
 ## Uninstallation
 Once you have your booking completed, this extension has no more use for you. You can uninstall the extension by simply going to `chrome://extensions`, or by accessing the extension's options via your Chrome's toolbar.
