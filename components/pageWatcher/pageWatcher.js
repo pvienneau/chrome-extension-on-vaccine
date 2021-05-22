@@ -1,3 +1,12 @@
+const $getCalendar = () => $('.DayPicker')
+const $getCalendarActiveMonth = () => $getCalendar().find('.CalendarMonthGrid_month__horizontal').filter(':not(.CalendarMonthGrid_month__hidden)')
+const $getCalendarNextMonthButton = () => $getCalendar().find('[data-testid="calendar-next-button"]')
+const $getCalendarPrevMonthButton = () => $getCalendar().find('[data-testid="calendar-prev-button"]')
+const $getCalendarDays = () => $getCalendarActiveMonth().find('.CalendarDay')
+const $getAvailableCalendarDays = () => $getCalendarDays().filter(':not(.CalendarDay__blocked_out_of_range):not(.CalendarDay__today)')
+const $getAvailableTimeSlots = () => $('[data-testid="dose-appointment-edit"] [data-testid="appointment-select-timeslot"]')
+const $loaderSpinner = () => $('[data-testid="loading-indicator"]')
+
 function delay(delayMs) {
    return new Promise(function(resolve) {
        setTimeout(resolve.bind(null), delayMs)
@@ -41,25 +50,21 @@ const hasAvailableBookings = () => {
 }
 
 async function selectBooking() {
+  console.warn('selectBooking')
+
   $getAvailableCalendarDays().first().click()
 
-  await delay(1000)
+  await delay(300)
+
+  console.warn($getAvailableTimeSlots())
+  console.warn($getAvailableTimeSlots().first())
 
   $getAvailableTimeSlots().first().click() //select first dose date
 
-  await delay(1000)
+  await delay(300)
 
   $getAvailableTimeSlots().first().click() // select second dose date
 }
-
-const $getCalendar = () => $('.DayPicker')
-const $getCalendarActiveMonth = () => $getCalendar().find('.CalendarMonthGrid_month__horizontal').filter(':not(.CalendarMonthGrid_month__hidden)')
-const $getCalendarNextMonthButton = () => $getCalendar().find('[data-testid="calendar-next-button"]')
-const $getCalendarPrevMonthButton = () => $getCalendar().find('[data-testid="calendar-prev-button"]')
-const $getCalendarDays = () => $getCalendarActiveMonth().find('.CalendarDay')
-const $getAvailableCalendarDays = () => $getCalendarDays().filter(':not(.CalendarDay__blocked_out_of_range):not(.CalendarDay__today)')
-const $getAvailableTimeSlots = () => $('[data-testid="appointment-select-timeslot"]')
-const $loaderSpinner = () => $('[data-testid="loading-indicator"]')
 
 async function checkForVaccineBooking () {
   await delay(5000)
@@ -77,7 +82,7 @@ async function checkForVaccineBooking () {
       return true
     }
 
-    await delay(5000)
+    await delay(2000)
 
     $getCalendarPrevMonthButton().click()
 
@@ -89,7 +94,7 @@ async function checkForVaccineBooking () {
       return true
     }
 
-    await delay(5000)
+    await delay(2000)
   }
 }
 
