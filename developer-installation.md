@@ -17,4 +17,5 @@ If you are looking to run this code locally, or run an earlier version of this e
 <img width="419" alt="Screen Shot 2021-05-22 at 2 48 54 PM" src="https://user-images.githubusercontent.com/4933086/119237828-e1f71480-bb0c-11eb-9d18-a0144a3be037.png">
 
 **Note:** When making changes to the source code locally, you will need to refresh the extension via its settings page in order for those changes to take effect.
+
 **Note:** You can always take back control of the booking page by disabling this extension via `chrome://extensions`. Also see [uninstallation instructions](https://github.com/pvienneau/chrome-extension-on-vaccine/blob/master/README.md#uninstallation) for how to remove this extension from your browser, once you're done with the booking.
