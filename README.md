@@ -19,11 +19,5 @@ You can download the extension directly from the [Chrome Web Store](https://chro
 ## Developer Installation
 Refer to [Developer Installation](https://github.com/pvienneau/chrome-extension-on-vaccine/blob/master/developer-installation.md) on steps to install this extension from local code.
 
-## Uninstallation
-Once you have your booking completed, this extension has no more use for you. You can uninstall the extension by simply going to `chrome://extensions`, or by accessing the extension's options via your Chrome's toolbar.
-
-<img width="421" alt="Screen Shot 2021-05-22 at 3 30 10 PM" src="https://user-images.githubusercontent.com/34248317/119238772-a8290c80-bb12-11eb-93ba-2b4cecd58f61.png">
-<img width="392" alt="Screen Shot 2021-05-22 at 3 30 24 PM" src="https://user-images.githubusercontent.com/34248317/119238773-a8c1a300-bb12-11eb-8c1d-fe26a1ce68b5.png">
-
 ## Feedback
 Please create an [issue](https://github.com/pvienneau/chrome-extension-on-vaccine/issues) ticket with any issues encountered, or questions you have.
