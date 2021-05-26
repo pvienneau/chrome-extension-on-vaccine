@@ -1,5 +1,5 @@
 ## Ontario vaccination automated search Chrome extension
-Chrome Extension to auto-search for available vaccination bookings on the Ontario Health portal.
+Chrome Extension to auto-search for available vaccination bookings on the Ontario Health portal. Can be installed directly from the [Chrome Web Store](https://chrome.google.com/webstore/detail/book-your-ontario-covid-v/dhojjkiidphhnacemkijenggcbooaoel?hl=en-GB&authuser=0).
 
 https://user-images.githubusercontent.com/34248317/119238819-fb9b5a80-bb12-11eb-9b9f-08cc261efa55.mp4
 
